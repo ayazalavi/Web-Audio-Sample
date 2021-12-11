@@ -1,0 +1,8 @@
+{
+  "short_name": "Web Audio Sample",
+  "name": "Web Audio Sample App",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

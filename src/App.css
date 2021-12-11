@@ -1,0 +1,211 @@
+.container {
+  width: 90vw;
+  height: 90vh;
+  border: 2px solid black;
+  margin: 5vh 5vw;
+}
+
+.container > label {
+  background-color: white;
+  color: black;
+  text-transform: capitalize;
+  position: relative;
+  left:10vw;
+  top: -12px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px 10px;
+}
+
+.devices {
+  flex-direction: row;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex: 1;
+  height: 50vh;
+}
+
+.recordings {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+  height: 40vh; 
+  flex: 1;
+}
+
+
+
+.recordings > div {
+  display: flex;
+  padding: 10px 0px;
+  width: 50vw;
+}
+    
+.recordings > div > * {
+  flex-grow: 1;
+  flex: 2;
+}
+
+.recordings > div > label {
+  text-align: right;
+  align-self: center;
+  flex: 1;
+}
+
+.directorycont {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.devices > p {
+  background-color: transparent;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  width:100%;
+}
+
+.bluetoothDevice {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 30px;
+  width: 50%;
+  height: 100%;
+}
+
+.connect {
+  display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.horizontal-slider {
+  width: 250px;
+  max-width: 500px;
+  height:20px;
+  margin-bottom: 30px;
+}
+
+.horizontal-slider:nth-of-type(2n) {
+  margin-top: 30px;
+}
+
+.example-thumb {
+  cursor: pointer;
+  position: absolute;
+  z-index: 100;
+  background: #ffffff;
+  border: 5px solid #000;
+  border-radius: 100%;
+  display: block;
+  box-shadow: 0 0 2px 0 rgb(0 0 0 / 44%);
+}
+
+.example-thumb.example-thumb-0{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.example-thumb.active {
+  background-color: grey;
+}
+.example-track {
+  position: relative;
+  background: #333;
+}
+.example-track.example-track-0 {
+  background: #777;
+}
+.horizontal-slider .example-track {
+  top: 20px;
+  height: 4px;
+}
+.horizontal-slider .example-thumb {
+  top: 12px;
+  width: 10px;
+  outline: none;
+  height: 10px;
+  line-height: 51px;
+  text-align: center;
+}
+
+
+.largeBlueButton {
+  height: 50px;
+  background-color: black;
+  border: 1px solid orange;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 10px;
+}
+
+.recording{
+  background-color: red;
+  opacity: 1 !important; 
+}
+
+.dropdown {
+  width: 20vw;
+}
+
+.dropdown2 {
+  padding-left: 14px;
+}
+
+.fileinput {
+  margin-left:10px;
+  height:30px;
+  border: 1px solid #ccc;
+  width: 78%;
+}
+
+.directory img {
+  width: 30px;
+  height: 30px;
+}
+
+.directory {
+  border:0px;
+  background-color: transparent;
+  align-self: center;
+}
+
+.gum {
+  display: none;
+}
+
+.bluetoothDevice .device {
+  flex: 1;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  padding: 20px 5vw 0px;
+}
+
+.pretty {
+  display: flex; 
+  flex: 1 1 auto;
+}
+
+
+.largeBlueButton:hover, .largeBlueButton:disabled {
+  opacity: 0.2;
+}
+
+.devices > :nth-child(1n) {
+  align-self: center;
+}
